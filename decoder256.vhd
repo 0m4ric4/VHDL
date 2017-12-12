@@ -14,7 +14,7 @@ ARCHITECTURE fati OF decoder256 IS
 SIGNAL ENout : STD_LOGIC_VECTOR(15 downto 0);
 
 COMPONENT decoder16 IS 
-port ( A,B, C, D,en: IN STD_LOGIC;
+port ( A, B, C, D, en: IN STD_LOGIC;
 output: OUT STD_LOGIC_VECTOR (15 downto 0)
 
 );

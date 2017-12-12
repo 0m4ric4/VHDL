@@ -7,7 +7,7 @@ port(
 D: IN STD_LOGIC_VECTOR (7 downto 0);
 address: IN STD_LOGIC_VECTOR (7 downto 0);
 clk: IN STD_LOGIC;
-memOutput: OUT STD_LOGIC_VECTOR (2047 downto 0);
+memOutput: INOUT STD_LOGIC_VECTOR (2047 downto 0);
 strobe: OUT STD_LOGIC_VECTOR (2047 downto 0)
 );
 END memory256;
